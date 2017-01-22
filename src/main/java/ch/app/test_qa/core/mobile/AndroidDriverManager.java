@@ -32,12 +32,12 @@ public class AndroidDriverManager {
 		capabilities.setCapability("platformName", "Android");
 
 		// Set android appPackage desired capability. It is
-		// com.android.calculator2 for calculator application.
+		// com.android.calculator for calculator application.
 		// Set your application's appPackage if you are using any other app.
 		capabilities.setCapability("appPackage", "ch.app.calculator");
 
 		// Set android appActivity desired capability. It is
-		// com.android.calculator2.Calculator for calculator application.
+		// com.android.calculator.Calculator for calculator application.
 		// Set your application's appPackage if you are using any other app.
 		capabilities.setCapability("appActivity", "ch.app.calculator.MainActivity");
 
